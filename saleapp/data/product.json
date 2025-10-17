@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Iphone17",
+    "image": "https://onewaymobile.vn/upload/1iPhone/17%20Pro%20Max/iPhone_17_Pro_Max_Cosmic_Orange_PDP_Image_Position_1_Cosmic_Orange_Color__VN-VI.webp",
+    "price": 350000,
+    "cate_id": 2
+  },
+  {
+    "id": 2,
+    "name": "Iphone Air",
+    "image": "https://24hstore.vn/images/products/2025/09/11/original/iphone-air-xanh-troi-nb-256gb_1757577852.jpg",
+    "price": 300000,
+    "cate_id": 2
+  },
+  {
+    "id": 3,
+    "name": "Ipad Plus",
+    "image": "https://24hstore.vn/images/products/2024/10/16/large/ipad-pro-m4-13-inch-wifi-cellular-mat-kinh-nano-hinh-1.jpg",
+    "price": 150000,
+    "cate_id": 3
+  },
+  {
+    "id": 4,
+    "name": "SamSung Pro",
+    "image": "https://24hstore.vn/images/products/2024/07/05/large/galaxy-tab-a9-plus-wifi-mau-xanh-navy.jpg",
+    "price": 120000,
+    "cate_id": 3
+  },
+  {
+    "id": 5,
+    "name": "Acer",
+    "image": "https://surfaceviet.vn/wp-content/uploads/2024/05/Surface-Laptop-7-Black-13.8-inch-600x600.jpg",
+    "price": 100000,
+    "cate_id": 1
+  },
+  {
+    "id": 6,
+    "name": "MacBook Air",
+    "image": "https://minhtuanmobile.com/uploads/products/241115041346-gray.png",
+    "price": 100000,
+    "cate_id": 1
+  },
+  {
+    "id": 7,
+    "name": "SamSung A80",
+    "image": "https://www.duchuymobile.com/images/variant_image/71/samsung-galaxy-m35-5g-xanh-nhat.jpg",
+    "price": 100000,
+    "cate_id": 2
+  },
+  {
+    "id": 8,
+    "name": "Hornor",
+    "image": "https://minhtuanmobile.com/uploads/products/250802014214-honor-400-5g-gold.png",
+    "price": 100000,
+    "cate_id": 2
+  }
+]
