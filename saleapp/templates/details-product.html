@@ -1,15 +1,16 @@
 {%extends 'layout/base.html'%}
+{%block title%}Chi Tiet San Pham {%endblock%}
 
 {%block content%}
 
-<body  >
-<div class="card" style="width:400px; margin-left: 26rem" >
-  <img class="card-img-top" src="{{products.image}}" alt="products.name">
-  <div class="card-body">
-    <h4 class="card-title">{{products.name}}</h4>
-    <p class="card-text">{{products.price}}</p>
+<div class="row mt-3">
+  <div class="col-md-5 col-12">
+     <img class="img-fluid" src="{{products.image}}" >
+  </div>
+  <div class="col-md-7 col-12">
+      <h3 class="text-info"> {{products.name}} </h3>
+      <h4 class="text-danger">":.0f,format{{products.price}}" VND</h4>
   </div>
 </div>
 
-</body>
 {%endblock%}
