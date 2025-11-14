@@ -1,8 +1,8 @@
 import json
 
 from saleapp import app
-from saleapp.models import Category, Product
-
+from saleapp.models import Category, Product, User
+import hashlib
 
 def load_categories():
     # with open("data/categories.json", encoding="utf-8") as f:
@@ -41,5 +41,12 @@ def get_products_byId(id):
     #         return p
     # return None
     return Product.query.get(id)
+def auth_User(username, password):
+    password = hashlib.md5(password.encode("utf-8")).hexdigest()
+    return User.query.filter(User.username.__eq__(username), User.password.__eq__(password)).first()
+
+def get_UserbyID(user_id):
+    return User.query.get(user_id)
 if __name__ == "__main__":
-    print(load_products())
+    with app.app_context():
+         print(auth_User("user","123"))

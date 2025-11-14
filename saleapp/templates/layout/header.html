@@ -15,9 +15,26 @@
                     <a class="nav-link" href="?cate_id={{c.id}}">{{c.name}}</a>
                 </li>
                 {%endfor%}
-                 <li class="nav-item">
+                {%if current_user.is_authenticated%}
+                <li class="nav-item">
+                    <a class="nav-link  active" href="/Dangnhap">
+                        <img src="{{current_user.avatar}}" alt="" width="25">
+                        Hello {{current_user.name}}
+
+                    </a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  active" href="/logout">&#128509;Dang Xuat</a>
+                </li>
+
+                {% else %}
+                <li class="nav-item">
                     <a class="nav-link  active" href="/Dangnhap">&#128509;Dang Nhap</a>
                 </li>
+
+                {% endif%}
+
 
             </ul>
             <form class="d-flex" method="get">
